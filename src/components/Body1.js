@@ -4,27 +4,49 @@ import Bodybg2 from "../assets/Group 1.png";
 
 function Body1() {
   return (
-    <div className=" h-[90vh] ">
+    <div className=" h-[65vh] ">
       <div className="flex">
       <div className="relative ">
         <img src={Bodybg1} alt='' ></img>
+        <div className="flex flex-col w-full justify-center ml-28  " >
 
-        <div className="absolute text-5xl top-[20vh]  ml-28 font-lora ">
-        <h1 className=" mb-3   font-bold text-[#0A438D]  " >India’s Top Food </h1>
-        <h1 className=" mb-3    font-bold text-[#0A438D]  "> Consultants Under </h1>
+        <div className="absolute text-5xl   top-[10vh]   font-lora ">
+          <div>
+          <h1 className="    font-bold text-[#0A438D]  " >India’s Top Food </h1>
+          </div>
+          <div>
+          <h1 className="     font-bold text-[#0A438D]  "> Consultants Under </h1>
+          </div>
+
+          <div>
           <h1 className="      font-bold text-[#0A438D]  "> One Roof</h1>
+          </div>
+        
+        
+          
         </div>
-        <div className="absolute top-[40vh] ml-28 font-poppins">
+
+
+        <div className="flex justify-center  flex-col">
+
+        <div className="absolute  top-[35vh]  font-poppins">
           <p>Connect with trusted and verified food consultants in the country</p>
         </div>
-        <div className="absolute top-[45vh] ml-28">
+        <div className="absolute top-[40vh] ">
           <h3 className="font-bold text-[#0A438D]" >10000+ Expert Consultants • 2000+ Projects</h3>
         </div>
-        <button className=" absolute ml-28 top-[55vh] text-[#0A438D] w-72 h-16 bg-slate-700 ">Get Free Consultation</button>
+
+        </div>
+        
+
+        </div>
+
+        
+        <button className=" absolute ml-28 top-[50vh] border-2 font-lora font-bold border-[#0A438D] rounded-l-2xl rounded-tr-[35px] text-[#0A438D] w-72 h-16 ">Get Free Consultation</button>
         
       </div>
       <div className="">
-        <img src={Bodybg2} alt='' ></img>
+        <img className=" object-contain" src={Bodybg2} alt='' ></img>
       </div>
 
       </div>
