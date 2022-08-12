@@ -26,96 +26,87 @@ function Body2() {
 
       <div className="h-[60vh]  bg-[#E2F1FF] p-10 flex justify-center items-center ">
         <div>
-          <div className="w-full flex gap-4 mb-10 justify-center items-center ">
-            <div className="w-1/4 h-20 flex items-center ">
-              <div className="flex " >
-              <img src={img1} alt="" className="h-20  "></img>
-              </div>
-              
-              <div>
-              <p className="m-auto items-start ">Market Research</p>
-              </div>
-              
-            </div>
-            <div className="w-1/4 h-20 flex  items-center">
-              <div>
-              <img src={img2} alt="" className=" h-20 "></img>
-              </div>
-              
-              <div>
-              <p className="m-auto">Product Development</p>
-              </div>
-              
-            </div>
-            <div className="w-1/4 h-20 flex  items-center">
+          <div className="w-full  flex flex-col md:flex md:flex-row  gap-4 mb-10 justify-center items-center ">
+            <div className="w-1/2 h-20 flex items-center justify-between ">
+              <div className="w-1/2 h-20 flex items-center ">
+                <div className="flex ">
+                  <img src={img1} alt="" className="h-20  "></img>
+                </div>
 
-              <div>
-              <img src={img3} alt="" className="h-20  "></img>
+                <div>
+                  <p className="m-auto items-start ">Market Research</p>
+                </div>
               </div>
 
-              <div>
-              <p className="m-auto">Plant Setup</p>
-              </div>
-              
-              
-            </div>
-            <div className="w-1/4 h-20 flex  items-center">
-              <div>
-              <img src={img4} alt="" className=" h-20  "></img>
-              </div>
+              <div className="w-1/2 h-20 flex  items-center">
+                <div>
+                  <img src={img2} alt="" className=" h-20 "></img>
+                </div>
 
-              <div>
-              <p className="m-auto">Funding</p>
+                <div>
+                  <p className="m-auto">Product Development</p>
+                </div>
               </div>
-              
-              
+            </div>
+
+            <div className="w-1/2 h-20 flex items-center ">
+              <div className="w-1/2 h-20 flex  items-center">
+                <div>
+                  <img src={img3} alt="" className="h-20  "></img>
+                </div>
+
+                <div>
+                  <p className="m-auto">Plant Setup</p>
+                </div>
+              </div>
+              <div className="w-1/2 h-20 flex  items-center">
+                <div>
+                  <img src={img4} alt="" className=" h-20  "></img>
+                </div>
+
+                <div>
+                  <p className="m-auto">Funding</p>
+                </div>
+              </div>
             </div>
           </div>
 
           <div className="w-full flex gap-4 mb-10 ">
             <div className="w-1/4 h-20 flex  items-center">
               <div>
-              <img src={img5} alt="" className="h-20 "></img>
+                <img src={img5} alt="" className="h-20 "></img>
               </div>
 
               <div>
-              <p className="m-auto">Machinery Installation</p>
+                <p className="m-auto">Machinery Installation</p>
               </div>
-              
-              
             </div>
             <div className="w-1/4  h-20 flex  items-center">
-
               <div>
-              <img src={img6} alt="" className="h-20 "></img>
+                <img src={img6} alt="" className="h-20 "></img>
               </div>
 
               <div>
-              <p className="m-auto">Technology Adoption</p>
+                <p className="m-auto">Technology Adoption</p>
               </div>
-              
-              
             </div>
             <div className="w-1/4 h-20 flex-row flex  items-center">
               <div>
-              <img src={img7} alt="" className="h-20  "></img>
-              </div>
-              
-              <div>
-              <p className="m">License & Certifications</p>
-              </div>
-              
-            </div>
-            <div className="w-1/4 k h-20 flex  items-center  ">
-              <div>
-              <img src={img8} alt="" className=" h-20 pr- "></img>
+                <img src={img7} alt="" className="h-20  "></img>
               </div>
 
               <div>
-              <p className="">Packaging & Distribution</p>
+                <p className="m">License & Certifications</p>
               </div>
-              
-             
+            </div>
+            <div className="w-1/4 k h-20 flex  items-center  ">
+              <div>
+                <img src={img8} alt="" className=" h-20 pr- "></img>
+              </div>
+
+              <div>
+                <p className="">Packaging & Distribution</p>
+              </div>
             </div>
           </div>
           <div className="w-full flex justify-center items-center">

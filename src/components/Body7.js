@@ -12,38 +12,43 @@ function Body7() {
       </div>
       <div className="w-full h-[65vh] bg-[#E2F1FF]   ">
         <div className="ml-10 mr-10  flex gap-20 ">
-        <div className="  w-1/3  flex flex-col justify-center items-center relative  ">
-          
-          <img className="h-52 " src={img} alt=''></img>
-          <p className="mr-14 ml-14" > Set up OEM unit for AC Duration - 6 Months Budget 100 Crs</p>
-          <div className="mt-10">
-          <button className="border-2 font-lora font-bold  border-[#0A438D] rounded-l-2xl rounded-tr-[35px] text-[#0A438D] w-52 h-12" >View Complete Project</button>
+          <div className="  w-1/3  flex flex-col justify-center items-center relative  ">
+            <img className="h-52 " src={img} alt=""></img>
+            <p className="mr-14 ml-14">
+              {" "}
+              Set up OEM unit for AC Duration - 6 Months Budget 100 Crs
+            </p>
+            <div className="mt-10">
+              <button className="border-2 font-lora font-bold  border-[#0A438D] rounded-l-2xl rounded-tr-[35px] text-[#0A438D] p-5 h-12">
+                View Complete Project
+              </button>
+            </div>
+          </div>
+          <div className="  w-1/3  flex flex-col justify-center items-center relative  ">
+            <img className="h-52 " src={img} alt=""></img>
+            <p className="mr-14 ml-14">
+              {" "}
+              Set up OEM unit for AC Duration - 6 Months Budget 100 Crs
+            </p>
+            <div className="mt-10">
+              <button className="border-2 font-lora font-bold  border-[#0A438D] rounded-l-2xl rounded-tr-[35px] text-[#0A438D] p-5 h-12">
+                View Complete Project
+              </button>
+            </div>
+          </div>
+          <div className="  w-1/3  flex flex-col justify-center items-center relative  ">
+            <img className="h-52 " src={img} alt=""></img>
+            <p className="mr-14 ml-14">
+              {" "}
+              Set up OEM unit for AC Duration - 6 Months Budget 100 Crs
+            </p>
+            <div className="mt-10">
+              <button className="border-2 font-lora font-bold  border-[#0A438D] rounded-l-2xl rounded-tr-[35px] text-[#0A438D] p-5 h-12">
+                View Complete Project
+              </button>
+            </div>
           </div>
         </div>
-        <div className="  w-1/3  flex flex-col justify-center items-center relative  ">
-          
-          <img className="h-52 " src={img} alt=''></img>
-          <p className="mr-14 ml-14" > Set up OEM unit for AC Duration - 6 Months Budget 100 Crs</p>
-          <div className="mt-10">
-          <button className="border-2 font-lora font-bold  border-[#0A438D] rounded-l-2xl rounded-tr-[35px] text-[#0A438D] w-52 h-12" >View Complete Project</button>
-          </div>
-        </div>
-        <div className="  w-1/3  flex flex-col justify-center items-center relative  ">
-          
-          <img className="h-52 " src={img} alt=''></img>
-          <p className="mr-14 ml-14" > Set up OEM unit for AC Duration - 6 Months Budget 100 Crs</p>
-          <div className="mt-10">
-          <button className="border-2 font-lora font-bold  border-[#0A438D] rounded-l-2xl rounded-tr-[35px] text-[#0A438D] w-52 h-12" >View Complete Project</button>
-          </div>
-          
-        </div>
-
-
-
-       
-
-        </div>
-        
       </div>
     </div>
   );

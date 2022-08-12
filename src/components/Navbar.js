@@ -10,9 +10,48 @@ function Navbar() {
   };
   return (
     <div className=" flex justify-between bg-[#0A438D] items-center  w-full   text-white">
-      <img className=" h-16 ml-20 mt-2 mb-2 " src={logo} alt="logo"></img>
+      <div className="w-1/6 mr-4">
+        <img className=" h-16 m-auto  lg:ml-20 mt-2 mb-2 " src={logo} alt="logo"></img>
+      </div>
 
-      <ul className="hidden  md:flex justify-center items-center">
+      <div className="w-1/">
+        <ul className="hidden  md:flex justify-center items-center">
+          <li className="p-4 ">Find Expert</li>
+          <img className="h-[25px] mt-2 " src={vector} alt=""></img>
+          <li className="p-4">View Project </li>
+          <img className="h-[25px] mt-2 " src={vector} alt=""></img>
+          <li className="p-4">Business Ideas</li>
+          <img className="h-[25px] mt-2 " src={vector} alt=""></img>
+          <li className="p-4">About Us</li>
+          <img className="h-[25px] mt-2 " src={vector} alt=""></img>
+          <li className="p-4">Blog</li>
+          <img className="h-[25px] mt-2 " src={vector} alt=""></img>
+          <li className="p-4">Events</li>
+          <img className="h-[25px] mt-2 " src={vector} alt=""></img>
+          <li className="p-4">Career</li>
+        </ul>
+        
+      </div>
+
+      <div className=" hidden w-1/6 md:flex flex-col ">
+          <div className="hidden md:flex   ">
+            <button className="bg-[#FF661B] p-5 h-9 flex justify-center items-center   rounded-l-[14px] ">
+              <div className="flex justify-center items-center">
+                <img src={login1} alt="" className="mx-1 h-5"></img>
+                <p>Register</p>
+              </div>
+            </button>
+            <button
+              className="bg-white text-black 
+            font-medium
+            p-5   h-9 rounded-tr-[17px] flex justify-center items-center "
+            >
+              Login
+            </button>
+          </div>
+        </div>
+
+      {/* <ul className="hidden  md:flex justify-center items-center">
         <li className="p-4 ">Find Expert</li>
         <img className="h-[25px] mt-2 " src={vector} alt=""></img>
         <li className="p-4">View Project </li>
@@ -27,7 +66,7 @@ function Navbar() {
         <img className="h-[25px] mt-2 " src={vector} alt=""></img>
         <li className="p-4">Career</li>
         <div className="flex mr-7 ml-14">
-          <button className="bg-[#FF661B] w-32 h-9 flex justify-center items-center   rounded-l-[14px] ">
+          <button className="bg-[#FF661B] p-5 h-9 flex justify-center items-center   rounded-l-[14px] ">
             <div className="flex justify-center items-center">
               <img src={login1} alt="" className="mx-1 h-5"></img>
               <p>Register</p>
@@ -36,12 +75,13 @@ function Navbar() {
           <button
             className="bg-white text-black 
             font-medium
-             w-20  h-9 rounded-tr-[17px] flex justify-center items-center "
+            p-5   h-9 rounded-tr-[17px] flex justify-center items-center "
           >
             Login
           </button>
         </div>
-      </ul>
+      </ul> */}
+
       <div onClick={handleNav} className="block md:hidden">
         {!nav ? (
           <AiOutlineClose size={20} className="mr-8 " />
@@ -52,7 +92,7 @@ function Navbar() {
       <div
         className={
           !nav
-            ? "fixed left-0 top-0 w-[60%] h-full border-r bg-[#000300]  border-r-gray-900 duration-500"
+            ? "fixed left-0 top-0 w-[60%] z-10 h-full border-r bg-[#000300]  border-r-gray-900 duration-500"
             : "fixed left-[-100%] "
         }
       >
