@@ -11,10 +11,10 @@ function Navbar() {
   return (
     <div className=" flex justify-between bg-[#0A438D] items-center  w-full   text-white">
       <div className="w-1/6 mr-4">
-        <img className=" h-16 m-auto  lg:ml-20 mt-2 mb-2 " src={logo} alt="logo"></img>
+        <img className=" h-16 m-auto mx-5 lg:ml-20 mt-2 mb-2 " src={logo} alt="logo"></img>
       </div>
 
-      <div className="w-1/">
+      <div className="">
         <ul className="hidden  md:flex justify-center items-center">
           <li className="p-4 ">Find Expert</li>
           <img className="h-[25px] mt-2 " src={vector} alt=""></img>

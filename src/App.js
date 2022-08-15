@@ -12,7 +12,7 @@ import Navbar from './components/Navbar';
 
 function App() {
   return (
-    <div className="App ">
+    <div className="App  ">
       
     <Navbar/>
     <Body1/>
@@ -22,7 +22,7 @@ function App() {
     <Body5/>
     <Body6/>
     <Body7/>
-    <Footer/>
+    {/* <Footer/> */}
     </div>
   );
 }
