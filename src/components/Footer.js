@@ -7,19 +7,19 @@ import yt from '../assets/Footer/yt.png'
 import insta from '../assets/Footer/insta.png'
 function Footer() {
   return (
-    <div className=' flex h-[50vh] w-full bg-[#0a428d] text-white' >
+    <div className=' flex h-[50%]  w-full bg-[#0a428d] text-white' >
       {/* <img src={footer} className='w-full' alt='' ></img> */}
-      <div className='flex  justify-center gap-10 mt-8 mr-10  ml-10 '>
+      <div className='flex  justify-center gap-10 mt-8 md:mr-10  md:ml-10 '>
 
-      <div className='w-1/4 flex flex-col' >
+      <div className='w-1/4 hidden md:flex flex-col' >
         <p className='mb-10'  >Quick Links</p>
-        <a href=''>Home</a>
+        <a href="/">Home</a>
         <a>Pricing</a>
         <a>Blog</a>
         <a>FAQs</a>
         <a>Contact Us</a>
       </div>
-      <div  className='w-1/4 flex flex-col' > 
+      <div  className='w-1/4 hidden md:flex flex-col' > 
         <p className='mb-10' >Solutions For</p>
         <a>Automotive and Auto components</a>
         <a>Aerospace and Defence</a>
@@ -30,8 +30,8 @@ function Footer() {
         <a>More >></a>
 
       </div>
-      <div  className='w-1/4 flex flex-col' >
-        <p className='mb-10' >Reach Us</p>
+      <div  className='w-1/2 md:w-1/4 flex flex-col' >
+        <p className=' mb-5 md:mb-10' >Reach Us</p>
         <a>Bangalore (Head Office)</a>
         <a>#249,2nd floor, 14th Main Rd, Sector7, H.S.R Layout, Bangalore - 560102.</a>
         <a>+91 9353714647</a>

@@ -22,7 +22,7 @@ function App() {
     <Body5/>
     <Body6/>
     <Body7/>
-    {/* <Footer/> */}
+    <Footer/>
     </div>
   );
 }

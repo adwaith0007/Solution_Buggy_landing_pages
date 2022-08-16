@@ -6,7 +6,7 @@ function Body6() {
   return (
     <div className="h-[60%]  w-full flex flex-col justify-center items-center">
       <div>
-        <h1 className="font-lora font-bold text-[#0A438D] mt-5 md:text-5xl md:mt-16  "> Meet Our Team</h1>
+        <h1 className="font-lora font-bold text-[#0A438D] text-2xl mt-5 md:text-5xl md:mt-16  "> Meet Our Team</h1>
       </div>
 
       <div className=" md:mt-20 gap-16 p-10 w-full flex flex-col md:flex-row justify-center items-center ">

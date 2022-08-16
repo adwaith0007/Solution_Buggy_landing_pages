@@ -10,25 +10,25 @@ function Navbar() {
   };
   return (
     <div className=" flex justify-between bg-[#0A438D] items-center  w-full   text-white">
-      <div className="w-1/6 mr-4">
+      <div className=" mr-4">
         <img className=" h-16 m-auto mx-5 lg:ml-20 mt-2 mb-2 " src={logo} alt="logo"></img>
       </div>
 
-      <div className="">
-        <ul className="hidden  md:flex justify-center items-center">
-          <li className="p-4 ">Find Expert</li>
+      <div className="cursor-pointer  ">
+        <ul className="hidden  md:flex justify-center items-center ">
+          <li className="p-4 hover:bg-[#376ea1] hover:rounded hover:delay-100 delay-100 ">Find Expert</li>
           <img className="h-[25px] mt-2 " src={vector} alt=""></img>
-          <li className="p-4">View Project </li>
+          <li className="p-4 hover:bg-[#376ea1] hover:rounded hover:delay-100 delay-100 ">View Project </li>
           <img className="h-[25px] mt-2 " src={vector} alt=""></img>
-          <li className="p-4">Business Ideas</li>
+          <li className="p-4 hover:bg-[#376ea1] hover:rounded hover:delay-100 delay-100 ">Business Ideas</li>
           <img className="h-[25px] mt-2 " src={vector} alt=""></img>
-          <li className="p-4">About Us</li>
+          <li className="p-4 hover:bg-[#376ea1] hover:rounded hover:delay-100 delay-100 ">About Us</li>
           <img className="h-[25px] mt-2 " src={vector} alt=""></img>
-          <li className="p-4">Blog</li>
+          <li className="p-4 hover:bg-[#376ea1] hover:rounded hover:delay-100 delay-100 ">Blog</li>
           <img className="h-[25px] mt-2 " src={vector} alt=""></img>
-          <li className="p-4">Events</li>
+          <li className="p-4 hover:bg-[#376ea1] hover:rounded hover:delay-100 delay-100 ">Events</li>
           <img className="h-[25px] mt-2 " src={vector} alt=""></img>
-          <li className="p-4">Career</li>
+          <li className="p-4 hover:bg-[#376ea1] hover:rounded hover:delay-00 delay-100 ">Career</li>
         </ul>
         
       </div>
@@ -92,13 +92,13 @@ function Navbar() {
       <div
         className={
           !nav
-            ? "fixed left-0 top-0 w-[60%] z-10 h-full border-r bg-[#000300]  border-r-gray-900 duration-500"
+            ? "fixed left-0 top-20 w-[60%] z-10 h-full border-r bg-black   border-r-gray-900 duration-500  "
             : "fixed left-[-100%] "
         }
       >
-        <h1 className="w-full text-3xl font-bold text-[#00df9a] m-4 ">
+        {/* <h1 className="w-full text-3xl font-bold text-[#00df9a] m-4 ">
           React.
-        </h1>
+        </h1> */}
         <ul className="p-4 uppercase">
           <li className="p-4 border-b border-gray-600">Home</li>
           <li className="p-4 border-b border-gray-600">Company</li>

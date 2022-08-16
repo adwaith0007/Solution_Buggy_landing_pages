@@ -59,7 +59,7 @@ function Body1() {
                     10000+ Expert Consultants • 2000+ Projects
                   </h3>
                 </div>
-                <button className="   text-[20px] md:ml-14 mt-10  border-2 font-lora font-bold border-[#0A438D] rounded-l-2xl rounded-tr-[35px] text-[#0A438D] md:p-5  ">
+                <button className="   text-[20px] md:ml-14 mt-10  border-2 font-lora   font-bold border-[#0A438D] rounded-l-2xl rounded-tr-[35px] text-[#0A438D] md:p-5  ">
                   Get Free Consultation
                 </button>
               </div>
